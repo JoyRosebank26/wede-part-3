@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>Register - Olifantsfontein Youth Development NPC</title>
+  <meta name="description" content="Sign up and register for upcoming programs, events, or volunteer initiatives at OYDP.">
+  <meta name="keywords" content="OYDP registration, sign up, join youth program, volunteer application">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><strong>OYDP</strong></a>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  
+  <main class="container">
+    
+    <section class="form-wrapper">
+      <div class="form-header">
+        <h1>Register With Us</h1>
+        <p>Register or log in at Olifantsfontein Youth Development Page</p>
+      </div>
+
+      <form action="#" method="POST" class="styled-form">
+        <h2>Want to get involved?</h2>
+        <p class="form-desc">Fill out the form below to register your interest as a volunteer or sponsor.</p>
+
+        <section class="form-container">
+  <h2>OYDP Youth Registration Form</h2>
+  
+  <form id="registrationForm">
+    <div class="form-group">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" placeholder="Enter your full name">
+      <small class="error-message" id="nameError"></small>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="text" id="email" placeholder="Enter your email address">
+      <small class="error-message" id="emailError"></small>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" placeholder="Enter your 10-digit phone number">
+      <small class="error-message" id="phoneError"></small>
+    </div>
+
+  </form>
+</section>
+
+        <div class="form-group">
+          <label for="role">I want to enquire as a:</label>
+          <select id="role" name="role">
+            <option value="volunteer">Volunteer</option>
+            <option value="sponsor">Sponsor / Partner</option>
+            <option value="participant">Youth Participant</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message / Motivation:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us how you would like to help..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-submit">Submit Enquiry</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Olifantsfontein Youth Development NPC. All rights reserved.</p>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

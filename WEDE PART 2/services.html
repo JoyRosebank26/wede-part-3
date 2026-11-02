@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services & Programs - Olifantsfontein Youth Development NPC</title>
+  <meta name="description" content="Explore the community services, educational support, and skills training programs offered by OYDP.">
+  <meta name="keywords" content="OYDP services, youth programs, skills development, education, community support">
+  
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><strong>OYDP</strong></a>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  
+  <main class="container">
+    <section class="services-hero">
+      <h1>Here Are Our Services</h1>
+      <p class="lead-text">Empowering the youth of Olifantsfontein through structured educational, digital, career, and recreational programs.</p>
+    </section>
+
+    <div clss="search-container">
+    <input type="text" id="searchInput" placeholder="Search programs...">
+   </div>
+
+
+    
+    <div class="card-grid two-column">
+
+      
+      <div class="card service-card">
+        <img src="images/computer.jpg" alt="Computer Literacy Training">
+        <div class="service-content">
+          <h3>Computer Literacy & Digital Skills</h3>
+          <p>Basic and intermediate training covering word processing, internet navigation, and introductory coding to bridge the digital divide.</p>
+          <a href="register.html" class="btn">Enrol in Program</a>
+        </div>
+      </div>
+
+      
+      <div class="card service-card">
+        <img src="images/afterschool.jpg" alt="After-School Tutoring">
+        <div class="service-content">
+          <h3>After-School Tutoring & Mentorship</h3>
+          <p>Academic support for high school learners focusing on Mathematics, Science, and English, paired with Life Skills mentorship.</p>
+          <a href="register.html" class="btn">Join Tutoring</a>
+        </div>
+      </div>
+
+     
+      <div class="card service-card">
+        <img src="images/jobreadiness.jpg" alt="Job Readiness Workshop">
+        <div class="service-content">
+          <h3>Job Readiness & Entrepreneurship Workshop</h3>
+          <p>CV writing training, interview preparation, basic financial literacy, and guidance on how to start small business ventures.</p>
+          <a href="register.html" class="btn">Sign Up Now</a>
+        </div>
+      </div>
+
+      
+      <div class="card service-card">
+        <img src="images/sports.jpg" alt="Sports and Recreation">
+        <div class="service-content">
+          <h3>Sports & Recreational Leagues</h3>
+          <p>Structured weekend sports leagues and creative arts programs designed to keep youth engaged, healthy, and unified.</p>
+          <a href="register.html" class="btn">Join a Team</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <section class="dynamic-services-section">
+  <h2>Explore Our Programs</h2>
+  
+  <!-- Interactive Search Input & Category Filter Controls -->
+  <div class="filter-controls">
+    <input type="text" id="programSearch" placeholder="Search programs by keyword...">
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      <option value="skills">Skills Development</option>
+      <option value="community">Community Service</option>
+      <option value="mentorship">Mentorship</option>
+    </select>
+  </div>
+
+  
+  <div id="dynamicCardContainer" class="cards-grid"></div>
+</section>
+
+  <div class="tabs-container">
+  <div class="tab-buttons">
+    <button class="tab-btn active" onclick="openTab(event, 'skills')">Skills Training</button>
+    <button class="tab-btn" onclick="openTab(event, 'community')">Community Service</button>
+  </div>
+
+  <div id="skills" class="tab-content" style="display: block;">
+    <h3>Youth Skills Development</h3>
+    <p>Computer literacy, resume building, and interview preparation workshops.</p>
+  </div>
+
+  <div id="community" class="tab-content" style="display: block;">
+    <h3>Community Initiatives</h3>
+    <p>Neighborhood clean-ups, youth sports coaching, and environmental awareness drives.</p>
+  </div>
+</div>
+
+  <footer>
+    <p>&copy; 2026 Olifantsfontein Youth Development NPC. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
